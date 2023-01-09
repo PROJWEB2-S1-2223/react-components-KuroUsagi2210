@@ -7,10 +7,16 @@ function App() {
 
   return (
 <div>
-  <h1>Liste de course</h1>
+  <Header />
   <HomePage />
   </div>
 
+  )
+}
+
+function Header(){
+  return (
+    <div> <h1>Liste de course</h1></div>
   )
 }
 
